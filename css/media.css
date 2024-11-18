@@ -48,11 +48,18 @@
 	}
 }
 @media (max-width: 682px) {
+	.main-content {
+		display: none;
+	}
+
 	.main {
 		flex-direction: column;
 		align-items: center;
 		max-width: 630px;
 		width: 100%;
+		.main-img {
+			display: block;
+		}
 		h1 {
 			max-width: 430px;
 		}
@@ -108,6 +115,9 @@
 		max-width: 310px;
 		max-height: 310px;
 	}
+	.mainh1 {
+		font-size: 34px;
+	}
 }
 @media (max-width: 388px) {
 	.main img {
@@ -132,5 +142,11 @@
 			width: 100%;
 			gap: 10px;
 		}
+	}
+}
+@media (max-width: 353px) {
+	.main img {
+		max-width: 235px;
+		max-height: 235px;
 	}
 }

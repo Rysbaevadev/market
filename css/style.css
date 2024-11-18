@@ -112,6 +112,9 @@ nav {
 		text-align: center;
 		font-size: 18px;
 	}
+	.main-img {
+		display: none;
+	}
 }
 .main-top {
 	display: flex;
